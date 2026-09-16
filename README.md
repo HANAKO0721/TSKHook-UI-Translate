@@ -1,4 +1,4 @@
-# TSKHook UI v0.1.0 — 繁体中文 UI 汉化扩展
+# TSKHook UI — 繁体中文 UI 汉化扩展
 
 > 《Twinkle Star Knights》（闪耀星骑士，DMM Windows 版）的 BepInEx IL2CPP 界面汉化扩展。
 
