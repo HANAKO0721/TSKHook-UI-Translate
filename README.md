@@ -196,23 +196,4 @@ GPL-2.0(继承自上游)。仅供学习交流,请勿用于商业用途。使用�
 - 修正饰品标题、素材数量文本及种族交流会期间的初始化占位文字，保留数字、富文本标记与逐字动画。
 - 新增安装脚本，更新 UI 扩展并清理前版撤下的 23 个已知替代 PNG。
 
-### 安装与更新
 
-1. 完全关闭游戏，解压本次 ZIP。
-2. 下载本版本的 [install.ps1](https://raw.githubusercontent.com/HANAKO0721/TSKHook-UI-Translate/v0.1.1/install.ps1)，保存到解压目录，与 `BepInEx` 文件夹同级。
-3. 在该目录打开 PowerShell，执行以下命令，将示例路径替换为自己的游戏目录：
-
-   ```powershell
-   .\install.ps1 -GamePath 'D:\Games\Twinkle_StarKnightsX'
-   ```
-
-4. 重新启动游戏，确认日志中的内部版本为 `TSKHook UI 0.3.7`。原 `TSKHook.dll`、共用配置、缓存及 workspace 链接继续保留。
-
-完整版本记录见 [v0.1.1 包内 README](https://github.com/HANAKO0721/TSKHook-UI-Translate/blob/v0.1.1/docs/releases/v0.1.1/README.md)，操作说明见 [使用说明.txt](https://github.com/HANAKO0721/TSKHook-UI-Translate/blob/v0.1.1/使用说明.txt)。
-
-### 已知问题与限制
-
-- 本次 ZIP 有 194 个文件，比发布文件夹少 `install.ps1`；其余文件内容一致。安装脚本可按上述链接单独下载。
-- 包内说明引用的 `RELEASE_REVIEW.md` 与 `TECHNICAL_ANALYSIS.md` 未包含在发布目录或 ZIP 中。
-- 本次更新的是发布目录中的程序与数据；仓库现有 `src/` 和构建说明仍对应此前版本，不是 v0.1.1 的对应源码。
-- 包内记录的换日流程 `popup cache not found`、上游词表下载 SSL EOF 及历史活动剧情空引用仍待解决；锁定内容、购买、抽取与实际养成结果未全部实测。
