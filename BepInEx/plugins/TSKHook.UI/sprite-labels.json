@@ -3609,5 +3609,169 @@
     "sourceWidth": 1024,
     "sourceHeight": 1024,
     "text": "討伐獎章兌換教學"
+  },
+  "skill_ef_339": {
+    "text": "EX上升提升",
+    "replacement": "sprites/skill_ef_339.png",
+    "sourceWidth": 433,
+    "sourceHeight": 74
+  },
+  "skill_ef_302": {
+    "text": "行動CT提升",
+    "replacement": "sprites/skill_ef_302.png",
+    "sourceWidth": 433,
+    "sourceHeight": 74
+  },
+  "skill_ef_420": {
+    "text": "傷害增加",
+    "replacement": "sprites/skill_ef_420.png",
+    "sourceWidth": 433,
+    "sourceHeight": 74
+  },
+  "skill_ef_325": {
+    "text": "ATK提升",
+    "replacement": "sprites/skill_ef_325.png",
+    "sourceWidth": 433,
+    "sourceHeight": 74
+  },
+  "skill_ef_300": {
+    "text": "ATK提升",
+    "replacement": "sprites/skill_ef_300.png",
+    "sourceWidth": 433,
+    "sourceHeight": 74
+  },
+  "055_01": {
+    "replacement": "sprites/055_01.png",
+    "sourceWidth": 1024,
+    "sourceHeight": 1024
+  },
+  "029_01": {
+    "replacement": "sprites/029_01.png",
+    "sourceWidth": 1024,
+    "sourceHeight": 1024
+  },
+  "skill_ef_335": {
+    "text": "蓄力",
+    "replacement": "sprites/skill_ef_335.png",
+    "sourceWidth": 433,
+    "sourceHeight": 74
+  },
+  "skill_ef_362": {
+    "text": "ATK提升",
+    "replacement": "sprites/skill_ef_362.png",
+    "sourceWidth": 433,
+    "sourceHeight": 74
+  },
+  "skill_ef_30010": {
+    "text": "暴擊傷害提升",
+    "replacement": "sprites/skill_ef_30010.png",
+    "sourceWidth": 433,
+    "sourceHeight": 74
+  },
+  "skill_ef_426": {
+    "text": "傷害增加",
+    "replacement": "sprites/skill_ef_426.png",
+    "sourceWidth": 433,
+    "sourceHeight": 74
+  },
+  "skill_ef_357": {
+    "text": "暴擊傷害提升",
+    "replacement": "sprites/skill_ef_357.png",
+    "sourceWidth": 433,
+    "sourceHeight": 74
+  },
+  "skill_ef_30011": {
+    "text": "屬性計數增加",
+    "replacement": "sprites/skill_ef_30011.png",
+    "sourceWidth": 433,
+    "sourceHeight": 74
+  },
+  "skill_ef_301": {
+    "text": "暴擊率提升",
+    "replacement": "sprites/skill_ef_301.png",
+    "sourceWidth": 433,
+    "sourceHeight": 74
+  },
+  "skill_ef_404": {
+    "text": "傷害增加",
+    "replacement": "sprites/skill_ef_404.png",
+    "sourceWidth": 433,
+    "sourceHeight": 74
+  },
+  "skill_ef_417": {
+    "text": "弱點屬性",
+    "replacement": "sprites/skill_ef_417.png",
+    "sourceWidth": 433,
+    "sourceHeight": 74
+  },
+  "skill_ef_338": {
+    "text": "EX消耗減少",
+    "replacement": "sprites/skill_ef_338.png",
+    "sourceWidth": 433,
+    "sourceHeight": 74
+  },
+  "skill_ef_30050": {
+    "text": "EX消耗減少",
+    "replacement": "sprites/skill_ef_30050.png",
+    "sourceWidth": 433,
+    "sourceHeight": 74
+  },
+  "skill_ef_200": {
+    "text": "擊退",
+    "replacement": "sprites/skill_ef_200.png",
+    "sourceWidth": 433,
+    "sourceHeight": 74
+  },
+
+  "002_01": {
+    "replacement": "sprites/002_01.png",
+    "text": "隊伍編成操作提示1"
+  },
+  "002_02": {
+    "replacement": "sprites/002_02.png",
+    "text": "隊伍編成操作提示2"
+  },
+  "002_03": {
+    "replacement": "sprites/002_03.png",
+    "text": "隊伍編成操作提示3"
+  },
+  "071_01": {
+    "replacement": "sprites/071_01.png",
+    "text": "sister遠征操作提示1"
+  },
+  "071_02": {
+    "replacement": "sprites/071_02.png",
+    "text": "sister遠征操作提示2"
+  },
+  "071_03": {
+    "replacement": "sprites/071_03.png",
+    "text": "sister遠征操作提示3"
+  },
+  "022_01": {
+    "replacement": "sprites/022_01.png"
+  },
+  "022_02": {
+    "replacement": "sprites/022_02.png"
+  },
+  "022_03": {
+    "replacement": "sprites/022_03.png"
+  },
+  "022_04": {
+    "replacement": "sprites/022_04.png"
+  },
+  "022_05": {
+    "replacement": "sprites/022_05.png"
+  },
+  "022_06": {
+    "replacement": "sprites/022_06.png"
+  },
+  "022_07": {
+    "replacement": "sprites/022_07.png"
+  },
+  "enemy_01": {
+    "replacement": "sprites/sister_hit_critical.png",
+    "sourceWidth": 145,
+    "sourceHeight": 56,
+    "imagePathPrefix": "Controller/PresenterRoot/Quest(Clone)/View/SisterExpeditionTop/SisterExpeditionTopView(Clone)/ListCanvas/CharaAction/"
   }
 }
