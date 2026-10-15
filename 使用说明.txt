@@ -1,17 +1,32 @@
-TSKHook UI 繁體漢化擴充 v0.1.3（内部版本v0.3.29／資料20261010-r1）
+TSKHook UI 繁體漢化擴充 v0.1.4／資料20261015-r2
 適用：已安裝TSKHook v1.1.6的DMM Windows版《Twinkle Star Knights X》
 
-UI DLL：0.3.29.0（397312 bytes）。
-資料保持12670 UI／1194 Web／197圖片規則／58份詞表。10/9的44規則／67來源與10/10兩條解鎖規則沿用，本版沒有新增譯文。
-本版更新包打包目標：TSKHook_UI_v0.3.29_data-20261010-r1.zip。
+UI DLL：0.3.33.0（405504bytes），正式interop建置0警告／0錯誤，已部署；本版冷啟、同關LV1實戰、六主入口往返與正常退出通過。
+資料：12756 UI／1194 Web／197圖片規則／62份UI詞表。
+本輪四新表85規則、95個已審來源；既有94合併94/94，加首通禮物1來源RED→GREEN，沒有重跑95合併。
+
 
 本版內容
-0.3.29新增轉蛋角色詳情GachaUnitDetail/CharaDetailView(Clone)/Canvas/範圍，包含MAX紅字Attention提示。沿0.3.28既有plain ASCII formatter，原FOT、已有譯文、無tag且ASCII序列相同的條件保持；原英數字型／材質與中文主字型流程及F4沒有改動。
+原主字型為FOT的已譯文字，其可見ASCII通用保留原FOT家族與原preset，已移除Chara等場景白名單。新增或改變ASCII的譯文也沿原家族。完整自有plain全文字形時優先保留整段FOT，其餘中文沿Noto Sans CJK TC Bold。
+原richText=true的六位HEX color標記逐段保留，F11恢復原文、字型與原旗標；F4新增字元底左頂點RGBA診斷。
+娜塔莎守護星17.25pt；活動列表第1／2／3話19.5／19.35／19.4pt均已原生確認，解鎖後池項換位保持。一次性解鎖通知第2話19.35pt已source修正，修後未再觸發。自訂隊名TeamList鏡像保留原串。
+兩新角色、Boss／Story／交換、購買部禮包與首次通關獎勵文字依實採補齊；姓名、數值、換行及原文保留政策沿用。
+
+本輪驗證
+本版真實Harmony目標76/76；LoadCutin／LoadExCutin兩入口在原生計數與排程前穩定去重，正式prefix窄回放6/6。TMP原549/549、兩字級缺口source修後563/563。
+核心政策82/82與模擬戰postfix11/11保留本輪已跑範圍。
+0.3.32由指定桌面URL於2026/10/15 02:13:49冷啟，PID149740。EX MAX、Natasha School／Guardian、碧翠絲碎片禮包、活動Story／StageName日繁原生13控件／96可見ASCII；首通禮物另1控件／3ASCII。既有11個內容範圍與新增禮物欄內容相符。
+0.3.32 event3043 LV1實戰勝利，券58→57、討伐獎章450，首次通關50星晶石送禮物箱未領取；正常退出但原生LoadCutin／LoadExCutin共2次重複key1111004例外。
+0.3.33於03:20:27由同一桌面URL冷啟PID130832；同LV1第二次勝利，券57→56、討伐獎章450→900，兩個cut-in入口各記一次去重。六主入口往返包含劇情主頁，03:45:42正常退出；Bep Error0、Unity例外0bytes、Player NRE0／Exception0、ErrorLog0bytes。
+AUTO、BOOST及編成未改；圖鑑排序與各LV1角色／裝備預覽已還原，活動關卡預覽還原最高可挑戰LV2。未播放Adv，50首通星晶石仍在禮物箱未領。
+本版Story第1／2／3完整章名3控件／3ASCII原生通過，19.5／19.35／19.4pt及原Jost材質保持；一次性Popup第2話修後未再觸發。
+0.3.31的六主入口零錯誤正常退出與109ASCII原生結果按原版本保存。0.3.29及更早的Gacha、popup、時間／HW、教學與飾品資料均為歷史結果。
 
 安裝
 完全關閉遊戲，解壓本版更新包，在解壓資料夾執行：
-    .\install.ps1 -GamePath 'C:\Users\用户名\Twinkle_StarKnightsX'或'你安装的游戏路径'
+    .\install.ps1 -GamePath 'C:\Users\用户名\Twinkle_StarKnightsX'或'你自定义的游戏路径'
 安裝器更新獨立UI DLL及UI資料，保留原劇情TSKHook.dll、共用config與遊戲源檔。
+
 
 快捷鍵
 F4：採集已載入文字、字型、圖片與遠征hitText／DamageSprite裁切定位資料；ASCII逐字資料只供唯讀診斷。
@@ -35,8 +50,14 @@ F1：沿用原TSKHook設定重讀。
 12. 商品DMM點數圖。
 前三項子頁繼續翻譯。功能說明、商品文字及轉蛋注意事項按規則翻譯；使用條款與隱私權政策正文沿原文。
 
-已知問題
-0.3.26後段曾有1筆ResetFace NullReferenceException，根因仍未確定。0.3.27受控觀測與0.3.28／0.3.29所記會話未復現；臨時probe已移除，不代表例外已修復。
-一次性解鎖通知「菲尼斯之塔 新月之塔181F」未再觸發，逐字font仍缺證據，與本輪新月181F敵人子窗分開記錄。其他CharaDetailView、含tag、ASCII序列改變及其他UI／字型未擴驗。
-FOT缺部分繁體字，Noto字形／筆畫／字寬與FOT不同，原字級及效果保持不等於逐像素同字形。
-Help目前9/40日繁全文已讀，剩31篇；新角色其他界面、逐級／鎖後內容、未走訪路線及歷史遠征錯誤等仍待。全部主／子UI無報錯、無卡死及字型一致目標尚未全部驗收。
+已知問題與驗收界線
+0.3.33已完成冷啟／同關LV1勝利／六主入口與零錯誤正常退出。一次性解鎖Popup第2話已source/replay修正，修後未再觸發；列表第2話的原生結果不代替此Popup。全遊戲、全角色、鎖定子頁、未持有角色養成／語音及其他未採狀態尚未全部驗收。
+購買部只直接開過碧翠絲星騎士碎片禮包的1個確認窗，其標題與正文為2個可見文字來源。33條Shop／Product來源的其餘內容以模型實採與正式catalog回放記錄。
+原FOT未涵蓋的繁體字沿NotoTCBold；其字形／筆畫／字寬與FOT不同。字級、原preset與ASCII家族保持不等於逐像素全字形相同；color已有實採六位HEX來源，其他tag與未採狀態依原驗收界線。
+0.3.26 ResetFace NRE、遠征Stencil／32F通用錯誤、直接exe／船長帽／首敗Footer及原外網服務故障仍保存原記錄。181F一次性解鎖通知沒有重觸發逐字來源。Help歷史9/40、剩31。
+
+
+
+
+
+
