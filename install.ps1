@@ -1,4 +1,4 @@
-﻿param([Parameter(Mandatory = $true)][string]$GamePath)
+param([Parameter(Mandatory = $true)][string]$GamePath)
 $ErrorActionPreference = 'Stop'
 $tskPlugins = Join-Path $GamePath 'BepInEx\plugins'
 if (-not (Test-Path -LiteralPath (Join-Path $tskPlugins 'TSKHook.dll'))) { throw 'Install the original TSKHook first. This package only updates the UI extension.' }
@@ -34,7 +34,10 @@ $tskRetiredShopSprites = @(
     'btn_exchange_shop_2007.png',
     'btn_exchange_shop_2011.png',
     'btn_exchange_shop_2010.png',
-    'product_00986.png'
+    'product_00986.png',
+    's_mission_111.png',
+    'm_mission_0111.png',
+    'm_event_1118.png'
 )
 $tskInstalledSprites = Join-Path $tskPlugins 'TSKHook.UI\sprites'
 foreach ($tskRetiredName in $tskRetiredShopSprites) {

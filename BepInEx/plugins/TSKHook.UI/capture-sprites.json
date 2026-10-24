@@ -73,11 +73,8 @@
   "event_logo_3042",
   "login_title_event_3042",
   "category_h",
-  "s_mission_111",
-  "m_mission_0111",
   "m_event_7026",
   "m_mission_0102",
-  "m_event_1118",
   "icon_1st_treasure",
   "gauge_name_enemy_04",
   "icon_recommendation",
@@ -86,5 +83,6 @@
   "s_mission_112",
   "skill_ef_426",
   "skill_ef_404",
-  "skill_ef_362"
+  "skill_ef_362",
+  "btn_soloraid_enter"
 ]

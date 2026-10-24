@@ -2942,27 +2942,9 @@
     "sourceWidth": 300,
     "sourceHeight": 110
   },
-  "s_mission_111": {
-    "text": "銀週紀念任務",
-    "replacement": "sprites/s_mission_111.png",
-    "sourceWidth": 300,
-    "sourceHeight": 110
-  },
-  "m_mission_0111": {
-    "text": "銀週紀念任務",
-    "replacement": "sprites/m_mission_0111.png",
-    "sourceWidth": 300,
-    "sourceHeight": 110
-  },
   "m_mission_0102": {
     "text": "克洛托覺醒任務",
     "replacement": "sprites/m_mission_0102.png",
-    "sourceWidth": 300,
-    "sourceHeight": 110
-  },
-  "m_event_1118": {
-    "text": "賞月蹦蹦跳通行證",
-    "replacement": "sprites/m_event_1118.png",
     "sourceWidth": 300,
     "sourceHeight": 110
   },
