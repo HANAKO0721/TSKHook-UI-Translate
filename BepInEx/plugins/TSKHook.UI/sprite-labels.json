@@ -2942,12 +2942,6 @@
     "sourceWidth": 300,
     "sourceHeight": 110
   },
-  "m_mission_0102": {
-    "text": "克洛托覺醒任務",
-    "replacement": "sprites/m_mission_0102.png",
-    "sourceWidth": 300,
-    "sourceHeight": 110
-  },
   "gauge_name_enemy_04": {
     "text": "剩餘數量",
     "replacement": "sprites/gauge_name_enemy_04.png"
@@ -2961,12 +2955,6 @@
     "replacement": "sprites/btn_exchange_ver2.png",
     "sourceWidth": 372,
     "sourceHeight": 185
-  },
-  "s_mission_112": {
-    "text": "秋季遊戲祭典超值任務",
-    "replacement": "sprites/s_mission_112.png",
-    "sourceWidth": 300,
-    "sourceHeight": 110
   },
   "icon_1st_treasure": {
     "text": "首次",
@@ -3704,7 +3692,6 @@
     "sourceWidth": 433,
     "sourceHeight": 74
   },
-
   "002_01": {
     "replacement": "sprites/002_01.png",
     "text": "隊伍編成操作提示1"
@@ -3755,5 +3742,21 @@
     "sourceWidth": 145,
     "sourceHeight": 56,
     "imagePathPrefix": "Controller/PresenterRoot/Quest(Clone)/View/SisterExpeditionTop/SisterExpeditionTopView(Clone)/ListCanvas/CharaAction/"
+  },
+  "btn_business_card": {
+    "text": "名片編輯",
+    "replacement": "sprites/btn_business_card.png"
+  },
+  "074_01": {
+    "replacement": "sprites/074_01.png",
+    "text": "劇情活動玩法說明1"
+  },
+  "074_02": {
+    "replacement": "sprites/074_02.png",
+    "text": "劇情活動玩法說明2"
+  },
+  "074_03": {
+    "replacement": "sprites/074_03.png",
+    "text": "劇情活動玩法說明3"
   }
 }

@@ -37,7 +37,9 @@ $tskRetiredShopSprites = @(
     'product_00986.png',
     's_mission_111.png',
     'm_mission_0111.png',
-    'm_event_1118.png'
+    'm_event_1118.png',
+    'm_mission_0102.png',
+    's_mission_112.png'
 )
 $tskInstalledSprites = Join-Path $tskPlugins 'TSKHook.UI\sprites'
 foreach ($tskRetiredName in $tskRetiredShopSprites) {
@@ -47,3 +49,4 @@ foreach ($tskRetiredName in $tskRetiredShopSprites) {
     }
 }
 Write-Output 'TSKHook UI updated. Existing TSKHook.dll and config.json were preserved. Restart the game to load the UI DLL.'
+
