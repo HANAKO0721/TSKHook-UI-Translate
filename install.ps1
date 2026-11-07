@@ -39,7 +39,27 @@ $tskRetiredShopSprites = @(
     'm_mission_0111.png',
     'm_event_1118.png',
     'm_mission_0102.png',
-    's_mission_112.png'
+    's_mission_112.png',
+    'event_logo_3040.png',
+    'event_archive_bg_7006.png',
+    'event_archive_btn_7006.png',
+    'event_archive_bg_7005.png',
+    'event_archive_btn_7005.png',
+    'event_archive_bg_7002.png',
+    'event_archive_btn_7002.png',
+    'event_archive_bg_7001.png',
+    'event_archive_btn_7001.png',
+    'event_archive_bg_7014.png',
+    'event_archive_btn_7014.png',
+    'event_archive_bg_7007.png',
+    'event_archive_btn_7007.png',
+    'event_archive_bg_7003.png',
+    'event_archive_btn_7003.png',
+    'event_archive_bg_7010.png',
+    'event_archive_btn_7010.png',
+    'event_logo_2046.png',
+    'event_logo_8200.png',
+    'event_logo_3042.png'
 )
 $tskInstalledSprites = Join-Path $tskPlugins 'TSKHook.UI\sprites'
 foreach ($tskRetiredName in $tskRetiredShopSprites) {

@@ -2637,10 +2637,6 @@
     "text": "盛夏的咯咯雞 炸雞大騷動",
     "replacement": "sprites/m_event_3040.png"
   },
-  "event_logo_3040": {
-    "text": "盛夏的咯咯雞 炸雞大騷動",
-    "replacement": "sprites/event_logo_3040.png"
-  },
   "m_event_20461": {
     "text": "潛入搜查24小時？",
     "replacement": "sprites/m_event_20461.png"
@@ -2664,78 +2660,6 @@
   "btn_event_damachalle_on": {
     "text": "傷害挑戰",
     "replacement": "sprites/btn_event_damachalle_on.png"
-  },
-  "event_archive_bg_7006": {
-    "text": "里菲尼斯之塔",
-    "replacement": "sprites/event_archive_bg_7006.png"
-  },
-  "event_archive_btn_7006": {
-    "text": "里菲尼斯之塔",
-    "replacement": "sprites/event_archive_btn_7006.png"
-  },
-  "event_archive_bg_7005": {
-    "text": "里菲尼斯之塔",
-    "replacement": "sprites/event_archive_bg_7005.png"
-  },
-  "event_archive_btn_7005": {
-    "text": "里菲尼斯之塔",
-    "replacement": "sprites/event_archive_btn_7005.png"
-  },
-  "event_archive_bg_7002": {
-    "text": "里菲尼斯之塔",
-    "replacement": "sprites/event_archive_bg_7002.png"
-  },
-  "event_archive_btn_7002": {
-    "text": "里菲尼斯之塔",
-    "replacement": "sprites/event_archive_btn_7002.png"
-  },
-  "event_archive_bg_7001": {
-    "text": "里菲尼斯之塔",
-    "replacement": "sprites/event_archive_bg_7001.png"
-  },
-  "event_archive_btn_7001": {
-    "text": "里菲尼斯之塔",
-    "replacement": "sprites/event_archive_btn_7001.png"
-  },
-  "event_archive_bg_7014": {
-    "text": "里菲尼斯之塔",
-    "replacement": "sprites/event_archive_bg_7014.png"
-  },
-  "event_archive_btn_7014": {
-    "text": "里菲尼斯之塔",
-    "replacement": "sprites/event_archive_btn_7014.png"
-  },
-  "event_archive_bg_7007": {
-    "text": "里菲尼斯之塔",
-    "replacement": "sprites/event_archive_bg_7007.png"
-  },
-  "event_archive_btn_7007": {
-    "text": "里菲尼斯之塔",
-    "replacement": "sprites/event_archive_btn_7007.png"
-  },
-  "event_archive_bg_7003": {
-    "text": "里菲尼斯之塔",
-    "replacement": "sprites/event_archive_bg_7003.png"
-  },
-  "event_archive_btn_7003": {
-    "text": "里菲尼斯之塔",
-    "replacement": "sprites/event_archive_btn_7003.png"
-  },
-  "event_archive_bg_7010": {
-    "text": "里菲尼斯之塔",
-    "replacement": "sprites/event_archive_bg_7010.png"
-  },
-  "event_archive_btn_7010": {
-    "text": "里菲尼斯之塔",
-    "replacement": "sprites/event_archive_btn_7010.png"
-  },
-  "event_logo_2046": {
-    "text": "潛入搜查24小時？",
-    "replacement": "sprites/event_logo_2046.png"
-  },
-  "event_logo_8200": {
-    "text": "與永遠老師特訓 傷害挑戰",
-    "replacement": "sprites/event_logo_8200.png"
   },
   "category_battle": {
     "text": "戰鬥",
@@ -2923,10 +2847,6 @@
   "m_event_3042": {
     "text": "九淨家的新人女僕報到！～天ヶ崎優咪的新人培訓～",
     "replacement": "sprites/m_event_3042.png"
-  },
-  "event_logo_3042": {
-    "text": "九淨家的新人女僕報到！～天ヶ崎優咪的新人培訓～",
-    "replacement": "sprites/event_logo_3042.png"
   },
   "login_title_event_3042": {
     "text": "九淨家的新人女僕報到！～登入獎勵～",
@@ -3617,6 +3537,11 @@
   },
   "029_01": {
     "replacement": "sprites/029_01.png",
+    "sourceWidth": 1024,
+    "sourceHeight": 1024
+  },
+  "029_02": {
+    "replacement": "sprites/029_02.png",
     "sourceWidth": 1024,
     "sourceHeight": 1024
   },
