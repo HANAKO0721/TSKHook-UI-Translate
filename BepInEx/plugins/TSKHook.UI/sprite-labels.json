@@ -2629,29 +2629,9 @@
     "text": "互相追蹤",
     "replacement": "sprites/mark_mutual_follow.png"
   },
-  "m_event_8200": {
-    "text": "傷害挑戰",
-    "replacement": "sprites/m_event_8200.png"
-  },
-  "m_event_3040": {
-    "text": "盛夏的咯咯雞 炸雞大騷動",
-    "replacement": "sprites/m_event_3040.png"
-  },
-  "m_event_20461": {
-    "text": "潛入搜查24小時？",
-    "replacement": "sprites/m_event_20461.png"
-  },
   "login_title_other_0001": {
     "text": "登入獎勵",
     "replacement": "sprites/login_title_other_0001.png"
-  },
-  "m_event_7000": {
-    "text": "檔案",
-    "replacement": "sprites/m_event_7000.png"
-  },
-  "m_event_13010": {
-    "text": "sister專用 sister遠征",
-    "replacement": "sprites/m_event_13010.png"
   },
   "btn_event_damachalle_off": {
     "text": "一般模式",
@@ -2844,10 +2824,6 @@
     "text": "受傷",
     "replacement": "sprites/btn_face_08_ON.png"
   },
-  "m_event_3042": {
-    "text": "九淨家的新人女僕報到！～天ヶ崎優咪的新人培訓～",
-    "replacement": "sprites/m_event_3042.png"
-  },
   "login_title_event_3042": {
     "text": "九淨家的新人女僕報到！～登入獎勵～",
     "replacement": "sprites/login_title_event_3042.png"
@@ -2855,12 +2831,6 @@
   "category_h": {
     "text": "H劇情",
     "replacement": "sprites/category_h.png"
-  },
-  "m_event_7026": {
-    "text": "里菲尼斯之塔",
-    "replacement": "sprites/m_event_7026.png",
-    "sourceWidth": 300,
-    "sourceHeight": 110
   },
   "gauge_name_enemy_04": {
     "text": "剩餘數量",
